@@ -121,15 +121,66 @@ console.log(ageJonas, ageSarah, averageAge);
 /*
 Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / height ** 2 = mass / (height * height). (mass in kg and height in meter).
 
-1. Store Mark's and John's mass and height in variables
-2. Calculate both their BMIs using the formula (you can even implement both versions)
-3. Create a boolean variable 'markHigherBMI' containing information about whether Mark has a higher BMI than John.
+1. Store Mark's and John's mass and height in variables */
 
+const markMass = 78; 
+const markHeight = 1.69; 
+const johnMass = 92;
+const johnHeight = 1.95;
+
+/*
+2. Calculate both their BMIs using the formula (you can even implement both versions)
+  */
+
+const BMIMark = markMass / markHeight ** 2;
+const BMIJohn = johnMass / johnHeight ** 2;
+console.log(BMIMark, BMIJohn);
+
+ // Mark BMI: 27.309968138370508
+ // John BMI: 24.194608809993426
+
+/*
+3. Create a boolean variable 'markHigherBMI' containing information about whether Mark has a higher BMI than John.
+*/ 
+const markHigherBMI = BMIMark > BMIJohn;
+console.log(BMIMark, BMIJohn, markHigherBMI);
+
+
+/*
 TEST DATA 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
 TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
 
 GOOD LUCK 😀
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // const massMark = 78;
 // const heightMark = 1.69;
