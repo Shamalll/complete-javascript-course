@@ -118,6 +118,71 @@ console.log( ageShamal <= 20);
 
 */
 
+/////// Writing this all out can be a pain so in ES6 there was a much better way to make spaces and make it simpler. 
+/*
+const myName = "Shamal";
+const futureJob = "Developer";
+const birthYear = 2000; 
+const currentYear = 2021;  
+
+const Shamal = "I'm" +  " " + myName + "," + " " + "a" + " " + futureJob + "." + " " + "I was born in" + " " + birthYear + "." + " " + "I'm currently" + " " + (currentYear - birthYear) + " " + "years old.";
+
+console.log(Shamal);
+
+
+
+// A Template literal can space things out using a backtick. (button above the tab key)
+
+const shamalNew = `I'm ${myName}, a ${currentYear - birthYear} year old ${ futureJob}. I was born in ${birthYear}.`;
+
+console.log(shamalNew);
+
+/// Another use is to use multi-lined string. Write the string using back-ticks, the indent (press the return/enter button idiot.)
+
+console.log(`I'm  
+${myName}.
+I'm kind of a failure lol.
+${currentYear - birthYear} years on this earth and I STILL can't land a decent job.
+I'll keep pushing though. It's what I do... to a fault.`);
+*/
+// Use template literals to make code a little more cleaner. 
+
+//////////////////////// Decisions (If/else statements) 
+
+/// Make a drivers license tester to check eligibility to take test.
+/*
+const age = 1;
+ 
+    if(age >= 17){
+        console.log("You can start driving.");
+    } else {
+        const yearsLeft = 18 - age; 
+        console.log(`You cannot start driving. You need to wait ${yearsLeft} years left`)
+    };
+*/
+
+/*
+    const birthYear = 1999;
+    if(birthYear >= 2000){
+        console.log("You were born before the 21st century.");
+    } else{
+        const yearsLeft = birthYear - 1;
+        console.log(`You weren't born in the 21st century, you were born ${yearsLeft} before it, so you're in the 20th century.`)
+    };
+    */
+/*
+    const birthYear = 1999; 
+    let century; 
+    if(birthYear <= 1999 ){
+         century = 20;
+    } else{ 
+        birthYear >= 2000;
+         century = 21;
+    };
+    console.log(century);
+
+*/
+
 
 
 

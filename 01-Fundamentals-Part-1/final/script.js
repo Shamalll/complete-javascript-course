@@ -251,13 +251,51 @@ console.log(century);
 /*
 Use the BMI example from Challenge #1, and the code you already wrote, and improve it:
 
-1. Print a nice output to the console, saying who has the higher BMI. The message can be either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark's!"
-2. Use a template literal to include the BMI values in the outputs. Example: "Mark's BMI (28.3) is higher than John's (23.9)!"
+1. Print a nice output to the console, saying who has the higher BMI. The message can be either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark's!" */
+
+// console.log(`Mark's BMI is higher than John's!`)
+
+/*
+2. Use a template literal to include the BMI values in the outputs. Example: "Mark's BMI (28.3) is higher than John's (23.9)!" */
+
+const markBMI = 22.3; 
+const johnBMI = 23.9; 
+if(markBMI > johnBMI){
+  console.log(`Mark's BMI is higher than John's! It's ${markBMI - johnBMI} more than Johns!`);
+} else{johnBMI > markBMI
+  console.log(`Well I guess John's BMI is higher than Marks'. It's ${ johnBMI - markBMI} more than Marks`)
+  
+}
+
+
+/*
 
 HINT: Use an if/else statement 😉
 
 GOOD LUCK 😀
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 const massMark = 78;
