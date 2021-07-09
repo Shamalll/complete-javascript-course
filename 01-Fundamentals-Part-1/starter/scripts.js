@@ -392,21 +392,32 @@ A NOT B (not operator)
 // if(hasDriverLicense && hasGoodVision && !isTired){
 //     console.log('Sarah can drive! Hooray!');
 // } else {
-//     console.log(`Still can't  drive loser`);
+//     console.log(`Still can't drive loser`);
 // };
 
+///////// SWITCH (Another way of using if/else statements)
+
+const days = [
+    'Monday',
+    'Tuesday',
+    'Wednesday',
+    'Thursday',
+    'Friday',
+    'Saturday',
+    'Sunday'
+];
+const test = "Hi";
+console.log(test);
+
+
+
+
+
+
+
+
+
 /*
-
-
-
-
-
-
-
-
-
-
-
 
 &&&&&&&&&Objects Practice
 
