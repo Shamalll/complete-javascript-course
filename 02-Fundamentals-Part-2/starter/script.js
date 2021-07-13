@@ -2,29 +2,20 @@
 /*
 Strict mode is to catch JavaScript in the console log as soon as an error occurs so as to prevent mistakes in the code. 
 
-*/
-
 let hasDriversLicense = false; 
 const passTest = true; 
 
 if (passTest) hasDriversLicense = true;
-if (hasDriversLicense) console.log(`I can drive.`);
-
+io4o'if (hasDriversLicense) console.log(`I can drive.`);
 
 const interfac = 'Audio';
 // passTest === true ? hasDriversLicense = true :
 // console.log(`It didn't work.`);
-
-
 // console.log(passTest);
-
-
 /*
 /////////// FUNCTIONS 
 
 Functions are pieces of code you can use over & over again. Like variables, but functions can hold 1 or more complete lines of code.
-
-
 */
 
 function logger(){
@@ -47,6 +38,6 @@ function fruitProcessor(apples, oranges){
 
 }
 
-fruitProcessor(5, 0); 
+fruitProcessor(5, 0);  
 
  
