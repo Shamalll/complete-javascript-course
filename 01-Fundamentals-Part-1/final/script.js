@@ -646,7 +646,70 @@ HINT: To calculate 20% of a value, simply multiply it by 20/100 = 0.2
 HINT: Value X is between 50 and 300, if it's >= 50 && <= 300 😉
 
 GOOD LUCK 😀
-*/
+
+
+const bill1 = 275; 
+
+const tips = bill1 >= 50 || 300 ? bill1 * .15 :
+console.log(`This doesn't work.`);
+
+const total = bill1 + tips; 
+
+console.log(`The bill was ${bill1}, the tip was ${tips}, and the total was ${total}.`);
+
+
+
+const bill2 = 40;
+
+const tips2 = bill2 >= 50 || 300 ? bill2 * .15 :
+bill2 * .20; 
+
+const total2 = bill2 + tips2;
+
+console.log(`The bill was ${bill2}, the tip was ${tips2}, and the total was ${total2}.`);
+
+
+
+const bill3 = 430;
+
+const tips3 = bill3 >= 50 || 300 ? bill3 * .15 :
+bill3 * .20;
+
+const total3 = bill3 + tips3;
+
+console.log(`The bills was ${bill3}, the tip was ${tips3}, and the total was ${total3}.`)
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 const bill = 430;

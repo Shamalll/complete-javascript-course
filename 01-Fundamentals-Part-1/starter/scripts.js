@@ -397,17 +397,140 @@ A NOT B (not operator)
 
 ///////// SWITCH (Another way of using if/else statements)
 
-const days = [
-    'Monday',
-    'Tuesday',
-    'Wednesday',
-    'Thursday',
-    'Friday',
-    'Saturday',
-    'Sunday'
-];
-const test = "Hi";
-console.log(test);
+// const days = 'Friday';
+
+// switch(days){
+//     case 'Monday':
+//         console.log(`Go to gym.`);
+//         console.log(`Code`);
+//         break;
+//     case 'Tuesday':
+//         console.log(`Diet and code.`);
+//         break;
+//     case 'Wednesday':
+//         break;
+//     case 'Thursday':
+//         console.log(`switch command practice.`);
+//         break;
+//     case 'Friday': // day == 'Friday';
+//         console.log(`Cheat day.`);
+//         break;
+//     case 'Saturday':
+//         console.log(`Work`);
+//         break;
+//     case 'Sunday':
+//         console.log(`Work... again.`);
+//         break;
+//     default:
+//         console.log(`Not a value day, invalid.`)
+// };
+
+// if(days === 'Friday'){
+//     console.log(`Cheat day.`);
+// } else if (days === 'Saturday'){
+//     console.log(`Work`);
+// } else if (days === 'Sunday'){
+//     console.log(`Work... again.`);
+
+// } else{
+//     console.log(`This doesn't work!`);
+// };
+
+
+
+
+/*
+
+/////////// Difference between Statements & Expression.
+
+A expression is like a sentence, and a statement is like the words that complete the sentence. 
+
+
+
+Expression: Piece of code that produces a value in the output. 
+
+ex.) strings( const name = 'toto'; ), 3 + 4 or 2000; or true && False && !false
+/// The answer itself isn't a expression, but
+if it produces a value, that's an  expression.
+
+
+Statement: A bigger piece of code that doesn't produce a value
+Ex.) If/else, Switch, case. 
+ */
+
+/*
+ //////////// Conditional (Ternary) Operator
+
+ This allows you to write a conditional in one line similar to an if/else statement.
+
+
+ Ternary Operator:   ?
+    syntax:   
+            (statement)
+            (condition) ? (if part) : 
+            (else part);
+ Ex:
+ 
+ const age = 20; 
+ age >= 18 ? console.log("I like to drink liquor ") : 
+ console.log("I fucking hate soda."); 
+
+//  A more efficient way to do it would be: 
+
+
+ const drink = age >= 18 ? console.log("liquor ") : 
+ console.log("soda"); 
+
+*/
+    
+
+    
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -418,6 +541,27 @@ console.log(test);
 
 
 /*
+ const time = '09:30';
+
+ let = time.length;
+
+ function
+
+ if(time[len-2]+time[len-1] === 'PM'){
+     let  hr = parseInt(time.splice(0.2))+12;
+     let ans = toString(hr);
+     for(let i=2; i< len; i++){
+         ans += time[i];
+     }
+     alert(ans);
+ } else {alert
+ }
+
+ console.log(time);
+
+
+
+
 
 &&&&&&&&&Objects Practice
 
