@@ -121,15 +121,66 @@ console.log(ageJonas, ageSarah, averageAge);
 /*
 Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / height ** 2 = mass / (height * height). (mass in kg and height in meter).
 
-1. Store Mark's and John's mass and height in variables
-2. Calculate both their BMIs using the formula (you can even implement both versions)
-3. Create a boolean variable 'markHigherBMI' containing information about whether Mark has a higher BMI than John.
+1. Store Mark's and John's mass and height in variables */
 
+// const markMass = 78; 
+// const markHeight = 1.69; 
+// const johnMass = 92;
+// const johnHeight = 1.95;
+
+/*
+2. Calculate both their BMI's using the formula (you can even implement both versions)
+  */
+
+// const BMIMark = markMass / markHeight ** 2;
+// const BMIJohn = johnMass / johnHeight ** 2;
+// console.log(BMIMark, BMIJohn);
+
+ // Mark BMI: 27.309968138370508
+ // John BMI: 24.194608809993426
+
+/*
+3. Create a boolean variable 'markHigherBMI' containing information about whether Mark has a higher BMI than John.
+*/ 
+// const markHigherBMI = BMIMark > BMIJohn;
+// console.log(BMIMark, BMIJohn, markHigherBMI);
+
+
+/*
 TEST DATA 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
 TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
 
 GOOD LUCK 😀
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // const massMark = 78;
 // const heightMark = 1.69;
@@ -196,17 +247,59 @@ console.log(century);
 
 ////////////////////////////////////
 // Coding Challenge #2
-
 /*
 Use the BMI example from Challenge #1, and the code you already wrote, and improve it:
 
-1. Print a nice output to the console, saying who has the higher BMI. The message can be either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark's!"
-2. Use a template literal to include the BMI values in the outputs. Example: "Mark's BMI (28.3) is higher than John's (23.9)!"
+1. Print a nice output to the console, saying who has the higher BMI. The message can be either "Mark's BMI is higher than John's!" or "John's BMI is higher than Mark's!" */
+
+// console.log(`Mark's BMI is higher than John's!`)
+
+/*
+2. Use a template literal to include the BMI values in the outputs. Example: "Mark's BMI (28.3) is higher than John's (23.9)!" */
+
+
+
+
+/*
 
 HINT: Use an if/else statement 😉
 
 GOOD LUCK 😀
 */
+
+
+
+
+
+
+
+// const markBMI = 22.3; 
+// const johnBMI = 23.9; 
+// if(markBMI > johnBMI){
+//   console.log(`Mark's BMI is higher than John's! It's ${markBMI - johnBMI} more than Johns!`);
+// } else{johnBMI > markBMI
+//   console.log(`Well I guess John's BMI is higher than Marks'. It's ${ johnBMI - markBMI} more than Marks`)
+  
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 const massMark = 78;
@@ -288,7 +381,7 @@ console.log(favourite);
 console.log(typeof favourite);
 
 if (favourite === 23) { // 22 === 23 -> FALSE
-  console.log('Cool! 23 is an amzaing number!')
+  console.log('Cool! 23 is an amazing number!')
 } else if (favourite === 7) {
   console.log('7 is also a cool number')
 } else if (favourite === 9) {
@@ -342,6 +435,98 @@ TEST DATA BONUS 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 
 GOOD LUCK 😀
 */
+
+
+// // 1.)
+// const dolphinScore = (96 + 108+ 89) / 3;
+// const koalaScore = (88 + 91 + 110) / 3;
+
+// console.log(dolphinScore); // = 97.66 
+// console.log(koalaScore); // =  96.3
+
+// //  2.)
+// if (dolphinScore > koalaScore){
+//   console.log(`Dolphins had the bigger average!`);
+// } else {
+//   console.log(`I guess the koalas had the bigger score somehow.`);
+// };
+
+// //////// BONUS 1:
+
+// const minimumScore = 100; 
+
+// const BdolphinScore = (97 + 112 + 101)/ 3;
+// const BkoalaScore = (109 + 95 + 123) / 3;
+
+// console.log(BdolphinScore); // = 103.33
+// console.log(BkoalaScore); // = 109
+
+// // If dolphin AND koala are higher than 100, log "Both are higher than but koalas still win."
+// if (BdolphinScore && BkoalaScore > minimumScore) {
+//   console.log(`Both beat the minimum!`);
+//   console.log(`But, koalas still win!`)
+// } else {
+//   console.log(`No one wins.`);
+// };
+
+// // If dolphins is higher, log, "Dolphins is higher and koalas are lower!"
+
+// if (BdolphinScore > BkoalaScore){
+//   console.log(`Dolphin is bigger!`);
+// } else {
+//   console.log(`Koala is bigger!`);
+// };
+
+// //////// BONUS 2:
+
+
+// const BBdolphinScore = (97 + 112 + 101) / 3; 
+// const BBkoalaScore = (109 + 95 + 106) / 3;
+
+// console.log(BBdolphinScore); // = 103.33
+// console.log(BBkoalaScore); // = 103.33
+
+// // If Dolphins or Koalas are greater than or equals to the minimum score, log, "They have the required score to win.". 
+// if(BBdolphinScore || BBkoalaScore >= minimumScore){
+//     console.log(`They have the required score to win!`);
+// }  else { 
+//   console.log(`They can't win!`);
+// };
+// // If Dolphins OR Koalas have equal scores, log, "They have the same score.".
+
+// if(BBdolphinScore || BBkoalaScore === minimumScore){
+//   console.log("They have the same score!");
+// };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 // const scoreDolphins = (96 + 108 + 89) / 3;
@@ -452,7 +637,7 @@ console.log(`I like to drink ${age >= 18 ? 'wine 🍷' : 'water 💧'}`);
 /*
 Steven wants to build a very simple tip calculator for whenever he goes eating in a resturant. In his country, it's usual to tip 15% if the bill value is between 50 and 300. If the value is different, the tip is 20%.
 
-1. Your task is to caluclate the tip, depending on the bill value. Create a variable called 'tip' for this. It's not allowed to use an if/else statement 😅 (If it's easier for you, you can start with an if/else statement, and then try to convert it to a ternary operator!)
+1. Your task is to calculate the tip, depending on the bill value. Create a variable called 'tip' for this. It's not allowed to use an if/else statement 😅 (If it's easier for you, you can start with an if/else statement, and then try to convert it to a ternary operator!)
 2. Print a string to the console containing the bill value, the tip, and the final value (bill + tip). Example: 'The bill was 275, the tip was 41.25, and the total value 316.25'
 
 TEST DATA: Test for bill values 275, 40 and 430
@@ -461,7 +646,70 @@ HINT: To calculate 20% of a value, simply multiply it by 20/100 = 0.2
 HINT: Value X is between 50 and 300, if it's >= 50 && <= 300 😉
 
 GOOD LUCK 😀
-*/
+
+
+const bill1 = 275; 
+
+const tips = bill1 >= 50 || 300 ? bill1 * .15 :
+console.log(`This doesn't work.`);
+
+const total = bill1 + tips; 
+
+console.log(`The bill was ${bill1}, the tip was ${tips}, and the total was ${total}.`);
+
+
+
+const bill2 = 40;
+
+const tips2 = bill2 >= 50 || 300 ? bill2 * .15 :
+bill2 * .20; 
+
+const total2 = bill2 + tips2;
+
+console.log(`The bill was ${bill2}, the tip was ${tips2}, and the total was ${total2}.`);
+
+
+
+const bill3 = 430;
+
+const tips3 = bill3 >= 50 || 300 ? bill3 * .15 :
+bill3 * .20;
+
+const total3 = bill3 + tips3;
+
+console.log(`The bills was ${bill3}, the tip was ${tips3}, and the total was ${total3}.`)
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 const bill = 430;
